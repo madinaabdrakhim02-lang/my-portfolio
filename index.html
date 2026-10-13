@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Веб-әзірлеушінің жеке портфолиосы">
+  <title>Менің портфолиом | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <header class="navbar">
+    <a href="#home" class="logo">
+      <span class="logo-icon">&lt;/&gt;</span> portfolio
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Мәзірді ашу" aria-expanded="false">☰</button>
+
+    <nav id="navMenu">
+      <a href="#home">Басты бет</a>
+      <a href="#about">Мен туралы</a>
+      <a href="#skills">Дағдылар</a>
+      <a href="#projects">Жобалар</a>
+      <a href="#contact" class="nav-contact">Байланыс ↗</a>
+      <button id="themeToggle" class="theme-toggle"
+        aria-label="Түстер режимін ауыстыру">☀️</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <div class="status">
+          <span class="status-dot"></span>
+          Сәлем! Портфолиома қош келдіңіз
+        </div>
+
+        <p class="eyebrow">САНДЫҚ ӘЛЕМДЕГІ ШЫҒАРМАШЫЛЫҚ</p>
+
+        <h1>Мен <span class="gradient-text">[Сіздің атыңыз]</span><br>
+          <span class="outline-text">Web Developer</span> боламын.
+        </h1>
+
+        <p class="hero-description">
+          Идеяларды заманауи веб-сайттарға айналдырамын.
+          Код жазуды, дизайн жасауды және жаңа технологияларды
+          үйренуді жақсы көремін.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="button primary">
+            Жобаларымды көру <span>↗</span>
+          </a>
+          <a href="#about" class="button secondary">
+            Мен туралы
+          </a>
+        </div>
+
+        <div class="social-info">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="code-window">
+          <div class="window-header">
+            <div class="window-dots">
+              <i></i><i></i><i></i>
+            </div>
+            <span>developer.js</span>
+            <span>•••</span>
+          </div>
+
+          <div class="code-content">
+            <p><span class="line">01</span>
+              <span class="purple">const</span> developer = {</p>
+            <p><span class="line">02</span>
+              &nbsp;&nbsp;name: <span class="green">'[Атыңыз]'</span>,</p>
+            <p><span class="line">03</span>
+              &nbsp;&nbsp;role: <span class="green">'Developer'</span>,</p>
+            <p><span class="line">04</span>
+              &nbsp;&nbsp;skills: [</p>
+            <p><span class="line">05</span>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">'HTML'</span>,</p>
+            <p><span class="line">06</span>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">'CSS'</span>,</p>
+            <p><span class="line">07</span>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">'JavaScript'</span></p>
+            <p><span class="line">08</span>
+              &nbsp;&nbsp;],</p>
+            <p><span class="line">09</span>
+              &nbsp;&nbsp;creative: <span class="blue">true</span></p>
+            <p><span class="line">10</span>};</p>
+            <p class="code-comment">// Келешек бүгіннен басталады ✨</p>
+          </div>
+        </div>
+
+        <div class="floating-badge badge-top">✦ Creative</div>
+        <div class="floating-badge badge-bottom">⚡ Always learning</div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">ӨЗІМ ТУРАЛЫ</p>
+        <h2>Танысайық<span class="gradient-text">.</span></h2>
+        <p>Менің қызығушылығым мен даму бағытым.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card profile-card">
+          <div class="profile-avatar">👨‍💻</div>
+          <h3>[Сіздің атыңыз]</h3>
+          <p class="muted">Бастаушы веб-әзірлеуші</p>
+          <div class="profile-tag">● Үйрену үстіндемін</div>
+        </div>
+
+        <div class="about-card about-text">
+          <h3>Код арқылы идеяларды іске асырамын.</h3>
+          <p>
+            Мен веб-бағдарламалауды үйреніп жүрмін.
+            Мақсатым — адамдарға пайдалы, әдемі және
+            қолдануға ыңғайлы сайттар жасау.
+          </p>
+          <p>
+            Әр жаңа жоба арқылы білімімді жетілдіріп,
+            HTML, CSS және JavaScript дағдыларымды дамытамын.
+          </p>
+          <a href="#contact" class="text-link">Байланысу →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">ТЕХНИКАЛЫҚ ҚАБІЛЕТТЕР</p>
+        <h2>Менің дағдыларым<span class="gradient-text">.</span></h2>
+        <p>Қазір меңгеріп жатқан технологиялар.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon html-icon">5</div>
+          <div class="skill-top">
+            <h3>HTML5</h3><span>Құрылым</span>
+          </div>
+          <p>Веб-беттің негізгі құрылымын құру.</p>
+          <div class="progress"><span style="--progress:80%"></span></div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon css-icon">✳</div>
+          <div class="skill-top">
+            <h3>CSS3</h3><span>Дизайн</span>
+          </div>
+          <p>Стиль, орналасу және адаптивті дизайн.</p>
+          <div class="progress"><span style="--progress:65%"></span></div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon js-icon">JS</div>
+          <div class="skill-top">
+            <h3>JavaScript</h3><span>Логика</span>
+          </div>
+          <p>Сайтқа интерактивті функциялар қосу.</p>
+          <div class="progress"><span style="--progress:40%"></span></div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon git-icon">⌘</div>
+          <div class="skill-top">
+            <h3>Git & GitHub</h3><span>Құралдар</span>
+          </div>
+          <p>Кодты сақтау және жобаларды басқару.</p>
+          <div class="progress"><span style="--progress:45%"></span></div>
+        </article>
+      </div>
+      <p class="small-note">
+        * Дағдылардың пайыздық көрсеткіштерін өз деңгейіңізге сай өзгертіңіз.
+      </p>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">ТАҢДАУЛЫ ЖҰМЫСТАР</p>
+        <h2>Менің жобаларым<span class="gradient-text">.</span></h2>
+        <p>Оқу барысында жасаған және дамытатын жобалар.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-preview preview-one">
+            <div class="mini-browser">
+              <div class="mini-top">● ● ●</div>
+              <div class="mini-content">
+                <span>LEARN.</span>
+                <div class="mini-line"></div>
+                <div class="mini-line short"></div>
+                <div class="mini-button"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <p class="project-type">01 / БІЛІМ БЕРУ</p>
+            <h3>Онлайн оқу платформасы</h3>
+            <p>Оқушылар мен мұғалімдерге арналған білім беру сайты.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-two">
+            <div class="calculator">
+              <div class="calc-screen">123 + 45</div>
+              <div class="calc-keys">7　8　9　÷<br><br>4　5　6　×<br><br>1　2　3　−</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <p class="project-type">02 / ВЕБ ҚОСЫМША</p>
+            <h3>Онлайн калькулятор</h3>
+            <p>Математикалық амалдарды орындауға арналған қосымша.</p>
+            <div class="tags"><span>JavaScript</span><span>CSS</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-three">
+            <div class="weather-card">
+              <span>Бүгінгі ауа райы</span>
+              <strong>☀️ 24°</strong>
+              <span>Ашық аспан</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <p class="project-type">03 / UI ДИЗАЙН</p>
+            <h3>Ауа райы интерфейсі</h3>
+            <p>Ауа райы мәліметтерін көрсетуге арналған интерфейс үлгісі.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>UI</span></div>
+          </div>
+        </article>
+      </div>
+      <p class="small-note">Бұл карточкалар — жобалардың дизайн үлгілері.</p>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-box">
+        <p class="eyebrow">БАЙЛАНЫС</p>
+        <h2>Бірге қызықты жоба жасайық<span class="gradient-text">!</span></h2>
+        <p>Ұсыныс, сұрақ немесе идеяңыз болса, маған жазыңыз.</p>
+        <a href="mailto:your-email@example.com" class="button primary">
+          ✉ Электрондық поштаға жазу
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo"><span class="logo-icon">&lt;/&gt;</span> portfolio</a>
+    <p>© <span id="year"></span> [Сіздің атыңыз]. Барлық құқықтар қорғалған.</p>
+    <a href="#home" class="back-top">↑ Жоғарыға</a>
+  </footer>
+
+</body>
+</html>
